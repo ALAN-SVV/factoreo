@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factoreo</title>
+</head>
+
+<body>
+
+    <h1>Cálculo Factorial de una número</h1><!--El titulo de la página web con etiqueta h1-->
+
+
+    <!--El usuario debe poner el numero del que quiera tener el resultadod de factoreo-->
+    <label for="numero">Ingresa un valor</label><!--El label representa una interfaz con el usuario
+    nos auda a utilizar el comando for de java script-->
+
+    <!--En este apartado daremos la intruccion de que no vale
+    ingresar carácteres o números negativos-->
+    <input type="number" id="numero" min="0"> <!--El imput nos permite agregar 
+    elementos en cualquier parte del documento, el ide es el nombre de la clase, y el min es el 
+    Número minimo que se puede desarrollar-->
+
+    <!--Agregamos un boton para que empieze a realizar el proceso, junto con el nombre de su id-->
+    <button id="calcular">Obtener Resultado</button>
+    <p id="resultado"></p>
+    <!--Conectamos la carpeta del Java script-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
